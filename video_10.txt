@@ -1,0 +1,31 @@
+list initializers
+
+#include <iostream>
+using namespace std;
+
+class student{
+    int passcode;
+    public:
+    string name; int id;
+
+student(string name,int id, int passcode) : name(name),id(id),passcode(passcode)
+{
+
+
+}
+
+    void into(){
+        cout<<"My name is "<<name<<". My id is "<<id<<". My passcode is "<<passcode;
+    }
+    
+    };
+
+
+int main() {
+    
+student s("aman",115,5);
+
+s.into();
+
+	return 0;
+}

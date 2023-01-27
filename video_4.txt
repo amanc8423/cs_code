@@ -1,0 +1,48 @@
+recursion
+
+1. power using recursion
+
+#include <iostream>
+using namespace std;
+
+// power using recursion
+
+
+int power(int base,int pow){
+   if(pow==0)return 1;
+   int res=power(base,pow-1);
+   return res*base;
+}
+
+
+int main() {
+
+cout<<power(2,3);
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

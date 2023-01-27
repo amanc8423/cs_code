@@ -1,0 +1,27 @@
+class and objects
+
+#include <iostream>
+using namespace std;
+
+class student{
+    int passcode;
+    public:
+    string name; int id;
+    void into(){
+        cout<<"My name is "<<name<<". My id is "<<id<<". My passcode is "<<passcode;
+    }
+    
+    void setpass(int a){passcode=a; }
+};
+
+
+int main() {
+    
+student s;
+s.name="aman";
+s.id=115;
+s.setpass(5);
+s.into();
+
+	return 0;
+}
